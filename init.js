@@ -1,5 +1,5 @@
 const fs = require('fs');
-const WHITE_LIST = ['README.md', 'index.html', 'images']
+const WHITE_LIST = ['README.md', 'index.html', 'images', 'init.js']
 function init() {
   let data = [], index = 0
   const dirs = fs.readdirSync(__dirname)
